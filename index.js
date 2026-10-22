@@ -21,7 +21,7 @@ if (!fs.existsSync(pastaLogs)) {
 const mensagem = formatLog('Sistema iniciado com sucesso.');
 // Escreve no 'arquivoLog' a "mensagem"
 fs.writeFileSync(arquivoLog, mensagem + '\n');
-
+    
 // mostra no terminal
 console.log('Log salvo em', arquivoLog);
 console.log('Conteúdo:', mensagem)
